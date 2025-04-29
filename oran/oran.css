@@ -1,0 +1,22 @@
+h1{
+background: #4b49498d;
+}
+.a {
+  background-image: url('OIP.jpg');
+  background-size: cover;
+  background-position: center top;
+  height: 450px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 100px;
+  animation: bgMove 3s ease-out forwards;
+}
+
+@keyframes bgMove {
+  from {
+    background-position: center top;
+  }
+  to {
+    background-position: center bottom;
+  }
+}
